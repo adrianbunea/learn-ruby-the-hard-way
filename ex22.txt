@@ -1,0 +1,48 @@
+# - creates a comment, everything coming after is ignored by the ruby interpreter
+puts - writes something to standard output and then goes to the next line
+string - group of characters that represent a piece of text
+" - opens and closes a string
+' - opens and closes a string
+, - comma separates parameters, values in an array or variables when destructuring
++ - adds two numbers
+- - subtracts two numbers
+* - multiplies two numbers
+/ - divides two numbers
+% - divides two numbers and returns the remainder
+< - less than comparator
+> - greater than comparator
+<= - less or equal comparator
+>= greater or equal comparator
+variable - a name/alias for a value, it can vary during the life of a program
+= - asignment operator
+#{} - holds a value/operation/variable that is interpolated into a string
+%s - is replaced inside a string with a passed string value
+%d - is replaced inside a string with a passed number value
+%f - is replaced inside a string with a passed float value
+true/false - boolean values
+print - writes something to standard output without going on the next line
+[] - opens and closes an array of values
+\ - escapes special characters
+\n - newline escape sequence
+\t - tab escape sequence
+\\ - backslash escape sequence
+<< starts a paragraph, and we can add a name afterward, paragraphs span over multiple lines in our code
+gets - reads input from standard input
+chomp - removes newline character from input
+require - takes another ruby script and appends it to ours
+ARGV - an array of all the arguments passed to the script we are running
+STDIN - instance of the IO class, used so we can be more specific what gets function we meant to call
+File - the File class from Ruby
+open - opens a file located at the filepath we passed to the function
+close - closes the opened file
+read - reads the bytes from the opened file
+write - writes the bytes to the opened file
+exist? - checks if there is a file located at the filepath passed
+seek - moves the place we are currently reading from in a file
+readline - reads a single line from the file
+$0 - the name of the script we are running
+def - defines a new function, followed by the name of the function
+*args - represents all the arguments passed to the function
+end - closes the body of the function
+return - returns a value at the end of the function
++= - adds the value following the operator to the variable before the operator
